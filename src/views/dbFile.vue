@@ -209,6 +209,7 @@
             sessionStorage.token = r.token;
             const jump = this.$router.resolve({name: 'viewFile'});
             window.open(jump.href,'_blank');
+            // this.$router.push({name: 'viewFile'})
           }else {
             this.showErrMeg('请求错误！');
           }
