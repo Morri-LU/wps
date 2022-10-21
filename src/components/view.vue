@@ -24,6 +24,7 @@
                 wps.setToken({token});
                 let app = wps.Application;
                 this.console.log(JSON.stringify(app))
+                this.console.log(wps.iframe)
             }
         }
     }

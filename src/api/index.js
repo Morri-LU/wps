@@ -3,7 +3,7 @@ import axios from "axios";
 
 // 配置默认路径前缀（须和wps开放平台回调URL一致）,可以是ip，也可以域名
 // 比如你回调地址配置的是http://123.45.67.89:8080,那么这里的baseURL就填写一样的
-axios.defaults.baseURL = "http://123.45.67.89:8080";
+axios.defaults.baseURL = "https://www.ljserver.cn/wps/";
 
 // 获取web预览文件地址
 export const getViewUrlWebPath = params => {

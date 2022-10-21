@@ -13,6 +13,10 @@
         created() {
             this.jwpsUrl = sessionStorage.wpsUrl;
             this.jtoken = sessionStorage.token;
+           
+        },
+        mounted(){
+            this.console.log(sessionStorage);
         },
         // 通过组件渲染wps的 iframe 框架
         components: {
